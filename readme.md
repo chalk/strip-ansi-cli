@@ -1,4 +1,4 @@
-# strip-ansi-cli [![Build Status](https://travis-ci.org/sindresorhus/strip-ansi-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/strip-ansi-cli)
+# strip-ansi-cli [![Build Status](https://travis-ci.org/chalk/strip-ansi-cli.svg?branch=master)](https://travis-ci.org/chalk/strip-ansi-cli)
 
 > Strip [ANSI escape codes](http://en.wikipedia.org/wiki/ANSI_escape_code)
 
@@ -26,7 +26,7 @@ $ strip-ansi --help
 
 ## Related
 
-- [strip-ansi](https://github.com/sindresorhus/strip-ansi) - API for this module
+- [strip-ansi](https://github.com/chalk/strip-ansi) - API for this module
 
 
 ## License
