@@ -12,9 +12,10 @@ test('main', function (t) {
 });
 
 test('stdin', function (t) {
-	t.plan(1);
+	t.plan(2);
 
-	childProcess.exec('echo \'\u001b[0m\u001b[4m\u001b[42m\u001b[31mfoo\u001b[39m\u001b[49m\u001b[24mfoo\u001b[0m\' | ./cli.js', function (err, stdout) {
+	childProcess.exec('echo \'\u001b[0m\u001b[4m\u001b[42m\u001b[31mfoo\u001b[39m\u001b[49m\u001b[24mfoo\u001b[0m\' | ./cli.js', {cwd: __dirname}, function (err, stdout) {
+		t.assert(!err, err);
 		t.assert(stdout === 'foofoo\n');
 	});
 });
