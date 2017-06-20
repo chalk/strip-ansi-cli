@@ -1,59 +1,59 @@
 {
-	"name": "strip-ansi-cli",
-	"version": "1.0.0",
-	"description": "Strip ANSI escape codes",
-	"license": "MIT",
-	"repository": "chalk/strip-ansi-cli",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
-	},
-	"bin": {
-		"strip-ansi": "cli.js"
-	},
-	"engines": {
-		"node": ">=4"
-	},
-	"scripts": {
-		"test": "xo && ava"
-	},
-	"files": [
-		"cli.js"
-	],
-	"keywords": [
-		"cli-app",
-		"cli",
-		"strip",
-		"trim",
-		"remove",
-		"ansi",
-		"styles",
-		"color",
-		"colour",
-		"colors",
-		"terminal",
-		"console",
-		"string",
-		"tty",
-		"escape",
-		"formatting",
-		"rgb",
-		"256",
-		"shell",
-		"xterm",
-		"log",
-		"logging",
-		"command-line",
-		"text"
-	],
-	"dependencies": {
-		"meow": "^3.7.0",
-		"strip-ansi": "^4.0.0"
-	},
-	"devDependencies": {
-		"ava": "*",
-		"execa": "^0.7.0",
-		"xo": "*"
-	}
+  "name": "strip-ansi-cli",
+  "version": "2.0.0",
+  "description": "Strip ANSI escape codes",
+  "license": "MIT",
+  "repository": "chalk/strip-ansi-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "strip-ansi": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "strip",
+    "trim",
+    "remove",
+    "ansi",
+    "styles",
+    "color",
+    "colour",
+    "colors",
+    "terminal",
+    "console",
+    "string",
+    "tty",
+    "escape",
+    "formatting",
+    "rgb",
+    "256",
+    "shell",
+    "xterm",
+    "log",
+    "logging",
+    "command-line",
+    "text"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "strip-ansi": "^4.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.7.0",
+    "xo": "*"
+  }
 }
