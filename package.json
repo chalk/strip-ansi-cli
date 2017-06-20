@@ -1,63 +1,59 @@
 {
-  "name": "strip-ansi-cli",
-  "version": "1.0.0",
-  "description": "Strip ANSI escape codes",
-  "license": "MIT",
-  "repository": "chalk/strip-ansi-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "maintainers": [
-    "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
-    "Joshua Appelman <jappelman@xebia.com> (jbnicolai.com)",
-    "JD Ballard <i.am.qix@gmail.com> (github.com/qix-)"
-  ],
-  "bin": {
-    "strip-ansi": "cli.js"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "xo && node test.js"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "strip",
-    "trim",
-    "remove",
-    "ansi",
-    "styles",
-    "color",
-    "colour",
-    "colors",
-    "terminal",
-    "console",
-    "string",
-    "tty",
-    "escape",
-    "formatting",
-    "rgb",
-    "256",
-    "shell",
-    "xterm",
-    "log",
-    "logging",
-    "command-line",
-    "text"
-  ],
-  "dependencies": {
-    "meow": "^3.3.0",
-    "strip-ansi": "^3.0.0"
-  },
-  "devDependencies": {
-    "ava": "0.0.4",
-    "xo": "*"
-  }
+	"name": "strip-ansi-cli",
+	"version": "1.0.0",
+	"description": "Strip ANSI escape codes",
+	"license": "MIT",
+	"repository": "chalk/strip-ansi-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"strip-ansi": "cli.js"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"strip",
+		"trim",
+		"remove",
+		"ansi",
+		"styles",
+		"color",
+		"colour",
+		"colors",
+		"terminal",
+		"console",
+		"string",
+		"tty",
+		"escape",
+		"formatting",
+		"rgb",
+		"256",
+		"shell",
+		"xterm",
+		"log",
+		"logging",
+		"command-line",
+		"text"
+	],
+	"dependencies": {
+		"meow": "^3.7.0",
+		"strip-ansi": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.7.0",
+		"xo": "*"
+	}
 }

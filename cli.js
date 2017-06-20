@@ -1,20 +1,18 @@
 #!/usr/bin/env node
 'use strict';
-var meow = require('meow');
-var stripAnsi = require('strip-ansi');
+const meow = require('meow');
+const stripAnsi = require('strip-ansi');
 
-var cli = meow({
-	help: [
-		'Usage',
-		'  $ strip-ansi <string>',
-		'  $ echo <string> | strip-ansi',
-		'',
-		'Example',
-		'  $ ls --color | strip-ansi'
-	]
-});
+const cli = meow(`
+	Usage
+	  $ strip-ansi <text>
+	  $ echo <text> | strip-ansi
 
-var input = cli.input[0];
+	Example
+	  $ ls --color | strip-ansi
+`);
+
+const input = cli.input[0];
 
 function init(data) {
 	process.stdout.write(stripAnsi(data));
