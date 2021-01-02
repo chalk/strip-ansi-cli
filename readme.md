@@ -1,4 +1,4 @@
-# strip-ansi-cli [![Build Status](https://travis-ci.org/chalk/strip-ansi-cli.svg?branch=master)](https://travis-ci.org/chalk/strip-ansi-cli)
+# strip-ansi-cli
 
 > Strip [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code)
 
