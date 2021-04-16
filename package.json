@@ -1,6 +1,6 @@
 {
 	"name": "strip-ansi-cli",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Strip ANSI escape codes",
 	"license": "MIT",
 	"repository": "chalk/strip-ansi-cli",
