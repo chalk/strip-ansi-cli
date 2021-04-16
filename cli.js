@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const stripAnsi = require('strip-ansi');
+import meow from 'meow';
+import stripAnsi from 'strip-ansi';
+import getStdin from 'get-stdin';
 
 const cli = meow(`
 	Usage
@@ -26,6 +26,7 @@ if (!input && process.stdin.isTTY) {
 if (input) {
 	init(input);
 } else {
-	process.stdin.setEncoding('utf8');
-	process.stdin.on('data', init);
+	(async () => {
+		init(await getStdin());
+	})();
 }
