@@ -15,7 +15,7 @@
 		"strip-ansi": "./cli.js"
 	},
 	"engines": {
-		"node": ">=12"
+		"node": ">=12.17"
 	},
 	"scripts": {
 		"test": "xo && ava"
