@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import process from 'node:process';
 import meow from 'meow';
 import stripAnsi from 'strip-ansi';
 import getStdin from 'get-stdin';
@@ -10,7 +11,9 @@ const cli = meow(`
 
 	Example
 	  $ ls --color | strip-ansi
-`);
+`, {
+	importMeta: import.meta,
+});
 
 const input = cli.input[0];
 
