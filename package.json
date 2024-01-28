@@ -14,6 +14,7 @@
 	"bin": {
 		"strip-ansi": "./cli.js"
 	},
+	"sideEffects": false,
 	"engines": {
 		"node": ">=18"
 	},

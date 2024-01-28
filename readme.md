@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install --global strip-ansi-cli
+```sh
+npm install --global strip-ansi-cli
 ```
 
 ## Usage
