@@ -15,7 +15,7 @@
 		"strip-ansi": "./cli.js"
 	},
 	"engines": {
-		"node": ">=12.17"
+		"node": ">=18"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -51,12 +51,12 @@
 	],
 	"dependencies": {
 		"get-stdin": "^9.0.0",
-		"meow": "^10.1.1",
-		"strip-ansi": "^7.0.1"
+		"meow": "^13.1.0",
+		"strip-ansi": "^7.1.0"
 	},
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"execa": "^5.1.1",
-		"xo": "^0.44.0"
+		"ava": "^6.1.0",
+		"execa": "^8.0.1",
+		"xo": "^0.56.0"
 	}
 }
