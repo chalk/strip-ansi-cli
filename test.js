@@ -13,6 +13,7 @@ test('stdin', async t => {
 	t.is(stdout, 'foofoo');
 });
 
+// NOTE: This test assumes AVA is run from a TTY terminal
 test('no input', async t => {
 	/** @type {import('execa').ExecaError} */
 	const error = await t.throwsAsync(execa('./cli.js', {stdin: 'inherit'}));
